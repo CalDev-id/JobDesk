@@ -614,7 +614,8 @@ footer {
         margin-right: 50px;
     }
     .main2container {
-        max-width: 730px;
+        max-width: 60%;
+        margin-bottom: 50px;
     }
     .main3 {
         max-width: 60%;
