@@ -451,17 +451,21 @@ footer {
     }
     .main {
         display: flex;
-        width: 60%;
+        max-width: 60%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         align-items: center;
         background: #fff;
-        position: relative;
         transform: translateY(-100px);
         box-shadow: 0 0 1px;
         padding-bottom: 20px;
         padding-top: 20px;
     }
+    .logo img {
+        width: 100%;
+    }
     .containerjob {
-        margin-right: 300px;
+        margin-right: 20px;
     }
     .title {
         font-size: 26px;
@@ -613,11 +617,12 @@ footer {
         max-width: 730px;
     }
     .main3 {
-        max-width: 350px;
+        max-width: 60%;
+        width: 350px;
         max-height: 150px;
     }
     .maincontainer {
-        width: 63%;
+        width: 70%;
         margin-inline: auto;
         display: flex;
         flex-wrap: wrap;
