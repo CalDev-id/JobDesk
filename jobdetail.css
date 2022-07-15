@@ -194,16 +194,20 @@ nav {
     border-radius: 20px;
     border: solid #19757c 1px;
 }
-.main2container {
-    width: 90%;
+.main2 {
+    max-width: 90%;
     margin-inline: auto;
     box-shadow: 0 0 1px black;
-}
-.main2 {
-    margin-left: 50px;
-    margin-right: 50px;
+
+    padding-left: 30px;
+
+    padding-right: 20px;
+    padding-bottom: 40px;
     margin-bottom: 40px;
     color: white;
+}
+.maincontainer {
+    margin-inline: auto;
 }
 .icon {
     color: #666666;
@@ -250,7 +254,7 @@ nav {
 .main3 h1 {
     color: white;
 }
-.main3 a {
+.applyjob {
     background:#1ea3b2;
     color: white;
     text-decoration: none;
@@ -451,7 +455,7 @@ footer {
     }
     .main {
         display: flex;
-        max-width: 60%;
+        max-width: 70%;
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
@@ -613,25 +617,37 @@ footer {
     .social {
         margin-right: 50px;
     }
-    .main2container {
+    .main2 {
         max-width: 60%;
         margin-bottom: 50px;
+        margin-left: 0px;
     }
     .main3 {
-        max-width: 60%;
-        width: 350px;
+        max-width: 30%;
         max-height: 150px;
+        margin-right: 0px;
+    }
+    .applyjob {
+        padding-right: 80px;
+        padding-left: 80px;
     }
     .maincontainer {
-        width: 63%;
+        max-width: 70%;
         margin-inline: auto;
         display: flex;
         flex-wrap: wrap;
-
     }
     .jobicon {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+    }
+}
+@media (max-width: 1150px) {
+    .main {
+        max-width: 90%;
+    }
+    .maincontainer {
+        max-width: 90%;
     }
 }
